@@ -10,6 +10,7 @@ function addFriend() {
     // if content isn't empty
     if (inputFriend != "") {
         inputFriend = normalizeName(inputFriend);
+
     // Verify if the name alredy exist
         if(alreadyExist(inputFriend)){
             // Add name to array
@@ -36,6 +37,7 @@ function updateListFriends() {
     friends.forEach(element => {
         listOfIndex.innerHTML += '<li>' + element + '</li>';
     });
+    
     clean("resultado");
 }
 
@@ -53,10 +55,12 @@ function sortFriend() {
     }
 }
 
+// Function to clean the element 
 function clean(idElement){
     document.getElementById(idElement).innerHTML = "";
 }
 
+// Function to normalize all names
 function normalizeName(name){
     let nameCorrect = "";
     for (let i = 0; i < name.length; i++) {
@@ -67,6 +71,7 @@ function normalizeName(name){
     return nameCorrect;
 }
 
+// Function to verify if the name is al ready exist
 function alreadyExist(name) {
     friends.forEach(element => {
         if (element == name) {
