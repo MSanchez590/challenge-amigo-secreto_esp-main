@@ -10,10 +10,10 @@
 
 
 <h3> Functions </h3>
-  - `Function 1`: Enter friends using a text box.
-  - `Function 1a`: View added friends.
-  - `Function 2`:Draw one of your friends.
-  - `Function 2a`: Show who is your secret friend.
+  <p> - <mark>Function 1 :</mark> Enter friends using a text box. </p>
+  <p>    * <mark>Function 1a :</mark> View added friends. </p>
+  <p> - <mark>Function 2 :</mark> Draw one of your friends. </p>
+  <p>    * <mark>Function 2a :</mark> Show who is your secret friend. </p>
 
 <h4> Technologies </h4>
 <p>
